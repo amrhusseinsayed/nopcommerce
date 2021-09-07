@@ -1,0 +1,15 @@
+{
+  "users": {
+    "user1": {
+      "firstName": "Amr",
+      "lastName": "Hussein",
+      "birthDay": "4",
+      "birthMonth": "September",
+      "birthYear": "1992",
+      "email": "amr@test.ixcc.iccr",
+      "password": "P@ssw0rd",
+      "confirmPassword": "P@ssw0rd",
+      "currency": "Euro"
+    }
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "name": "nopcommerce",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {
+    "@ffmpeg-installer/ffmpeg": "^1.1.0",
+    "fs-extra": "^10.0.0",
+    "testcafe": "^1.15.3",
+    "testcafe-reporter-allure": "^1.0.5",
+    "testcafe-reporter-html": "^1.4.6"
+  },
+  "scripts": {
+    "test": "testcafe"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@applitools/eyes-testcafe": "^1.14.3"
+  }
+}
