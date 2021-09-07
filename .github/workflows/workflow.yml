@@ -14,7 +14,11 @@ jobs:
     steps:
       - name: Checkout the repositroy 
         uses: actions/checkout@v2
+      - name: Install the needed packages and integrate with Applitools
+        run: |
+          npm install
+          echo 'set APPLITOOLS_API_KEY=XCTPPI8fOt1108dWho9M1zC1jEK2eg1BPrAY88LW105c7Uk110'
       - name: Install testcafe 
         uses: DevExpress/testcafe-action@latest
         with:
-          args: "chrome test"
+          args: "npm test"
