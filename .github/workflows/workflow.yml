@@ -21,4 +21,4 @@ jobs:
       - name: Install testcafe 
         uses: DevExpress/testcafe-action@latest
         with:
-          args: "npm test"
+          args: "chrome test"
